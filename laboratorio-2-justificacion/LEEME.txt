@@ -1,0 +1,28 @@
+LABORATORIO 2 — LA JUSTIFICACIÓN · EDICIÓN V2
+Semillero de Investigación · Mg. Vicky Ruiz
+
+CONTENIDO
+- index.html: aplicación HTML autocontenida, sin instalaciones ni API externas.
+
+PARA PUBLICAR EN GITHUB PAGES
+1. Descomprime este ZIP.
+2. Sube la carpeta laboratorio-2-justificacion con su index.html al repositorio.
+3. Enlaza a la ruta relativa laboratorio-2-justificacion/ desde el índice del semillero.
+4. Abre o actualiza la página publicada.
+
+CAPACIDADES
+- 17 escenas formativas sobre la justificación de un proyecto.
+- Editor de cinco secciones con párrafos adicionales ilimitados.
+- Análisis por reglas orientativas: qué señales están presentes, cuáles faltan, por qué y qué revisar.
+- Revisión global del texto y rúbrica de autoevaluación de 0 a 5 por criterio.
+- Prompts con rol, contexto y retroalimentación detallada para utilizar en un sistema de IA externo.
+- Exportación a un archivo Word .docx auténtico (no .doc disfrazado).
+- Autoguardado en el navegador del estudiante (almacenamiento local).
+
+LIMITACIONES ACADÉMICAS IMPORTANTES
+- La revisión instantánea NO es IA generativa: utiliza señales lingüísticas y reglas simples.
+- No verifica la existencia de artículos, la validez de datos ni el rigor completo del GAP.
+- La revisión profunda con IA requiere copiar el prompt a una herramienta externa;
+  no ingreses información personal de participantes ni claves privadas.
+- La exportación .docx aplica un formato de base semejante a APA 7;
+  la revisión final del formato institucional es responsabilidad del estudiante.
