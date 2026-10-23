@@ -17,6 +17,14 @@
 @media(max-width:680px){body{font-size:14px}.topbar{height:60px}.topbar .top-title{font-size:11px}.topbar .eyebrow{font-size:9px}.actions .hide-sm{display:none}.content{padding:16px 13px 30px}.hero{grid-template-columns:1fr}.hero-copy{padding:30px 25px}.hero h1{font-size:35px}.hero-art{min-height:230px}.paper{height:210px;width:52%;top:14px;left:28%}.station-grid,.grid-two,.terms{grid-template-columns:1fr}.scene-header h1{font-size:31px}.scene-header .subtitle{font-size:14px}.panel{padding:19px}.right-sticky{grid-template-columns:1fr}.matching-row{grid-template-columns:1fr;gap:6px}.checkline{flex-direction:column;gap:5px}.checkline select{max-width:100%;width:100%}.measure-inputs{grid-template-columns:repeat(2,1fr)}.lab-summary{grid-template-columns:1fr}.scene-footer{align-items:flex-start}.footnav{width:100%;justify-content:space-between}.topbar .actions .btn{font-size:11px;padding:7px}.meta-strip{gap:10px}.section-heading h2{font-size:20px}.bar-grid{height:160px}.hero .meta-strip{margin-top:18px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
 @media print{.sidebar,.topbar,.overlay,.quiz-actions,.btn,.footnav,.right-sticky,.toast{display:none!important}.main{margin-left:0}.content{padding:0;max-width:100%}.panel{box-shadow:none;break-inside:avoid}.scene-footer{margin-top:20px}body{background:#fff}.editor-block textarea{border:0}a{text-decoration:underline}}
+
+/* Navegación entre laboratorios del Semillero */
+.semillero-route{display:flex;align-items:center;flex-wrap:wrap;gap:9px 12px;background:#fff;padding:12px clamp(12px,2vw,28px);border-bottom:1px solid #dce5e9;font:600 12px/1.45 Inter,"Segoe UI",Arial,sans-serif;position:relative;z-index:3}
+.semillero-route-title{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:#536777;margin-right:4px}
+.semillero-route a{display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border:1px solid #dce5e9;border-radius:9px;color:#193b52;text-decoration:none;background:#f6f9fa;white-space:normal}
+.semillero-route a:hover{background:#edf4f6;border-color:#a8ced0}
+.semillero-route a[aria-current="page"]{background:#112a46;border-color:#112a46;color:#fff}
+@media(max-width:560px){.semillero-route{gap:7px;padding:10px 12px}.semillero-route-title{width:100%}.semillero-route a{font-size:11px;padding:7px 8px}}
 </style>
 </head>
 <body>
@@ -31,7 +39,7 @@
 </aside>
 <div class="main">
  <header class="topbar"><div class="top-left"><button type="button" class="btn outline small mobile-trigger" id="menuBtn" aria-label="Abrir índice" aria-expanded="false">☰</button><div><div class="eyebrow" id="topKicker">Semillero de Investigación</div><div class="top-title" id="topTitle">Laboratorio de Evidencias</div></div></div><div class="actions"><button type="button" class="btn outline small hide-sm" id="homeBtn">⌂ Inicio</button><button type="button" class="btn outline small" id="exportBtn" title="Descargar el expediente en un archivo de texto">↓ Expediente</button><button type="button" class="btn outline small" id="menuDataBtn" title="Guardar, importar o restablecer tus datos">⋯ Datos</button></div></header>
- <main id="mainContent" tabindex="-1"><div class="content" id="view"></div></main>
+<nav class="semillero-route" aria-label="Ruta de los laboratorios del semillero"><span class="semillero-route-title">Ruta del semillero</span><a href="./" aria-current="page">01 · Planteamiento del problema</a><a href="Laboratorio_2_Objetivos_Investigacion/">02 · Objetivos de investigación</a><a href="laboratorio-3-justificacion/">03 · Justificación</a></nav> <main id="mainContent" tabindex="-1"><div class="content" id="view"></div></main>
 </div></div>
 <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
 <input type="file" id="backupFile" accept=".json,application/json" class="file-input">

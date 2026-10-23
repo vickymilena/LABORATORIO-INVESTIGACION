@@ -1,0 +1,3 @@
+LABORATORIO 3 · JUSTIFICACIÓN DEL PROYECTO DE INVESTIGACIÓN
+Mg. Vicky Ruiz · Semillero de Investigación
+El archivo index.html conserva las 17 escenas, editor de párrafos, autoevaluación y exportación Word. La numeración visible es 3.
